@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Книга История русского театра</title>
+    <link rel="stylesheet" href="product.css">
+    
+ 
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "История русского театра",
+        "description": "Подарочное издание",
+        "image": "https://via.placeholder.com/300",
+        "offers": {
+            "@type": "Offer",
+            "price": "1250",
+            "priceCurrency": "RUB",
+            "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "24"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Магазин Культура.ру</h1>
+    </header>
+    
+    <main>
+        <div class="product" itemscope itemtype="https://schema.org/Product">
+            <h2 itemprop="name">История русского театра</h2>
+            
+          <img src="12.webp" alt="Книга История русского театра" itemprop="image">
+            
+            <p itemprop="description">Подарочное издание с иллюстрациями. 300 страниц.</p>
+            
+            <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <p>
+                    Цена: 
+                    <span itemprop="price">1250</span> 
+                    <span itemprop="priceCurrency">RUB</span>
+                </p>
+                <p>Наличие: 
+                    <link itemprop="availability" href="https://schema.org/InStock">
+                    В наличии
+                </p>
+            </div>
+            
+            <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                <p>
+                    Рейтинг: <span itemprop="ratingValue">4.8</span> из 5
+                    (на основе <span itemprop="reviewCount">24</span> отзывов)
+                </p>
+            </div>
+            
+            <h3>Отзывы</h3>
+            
+            <div itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <p>
+                    <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <span itemprop="name">Елена</span>
+                    </span>
+                    <time itemprop="datePublished" datetime="2026-02-15">15.02.2026</time>
+                </p>
+                <p itemprop="reviewBody">Прекрасное издание</p>
+                <p>Оценка: <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <span itemprop="ratingValue">5</span>/5
+                </span></p>
+            </div>
+            
+            <div itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <p>
+                    <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <span itemprop="name">Михаил</span>
+                    </span>
+                    <time itemprop="datePublished" datetime="2026-03-01">01.03.2026</time>
+                </p>
+                <p itemprop="reviewBody">Хорошая книга</p>
+                <p>Оценка: <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <span itemprop="ratingValue">4</span>/5
+                </span></p>
+            </div>
+            
+            <button>Купить</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p>© 2026 Магазин Культура.ру</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /backup/
+Disallow: /tmp/
+Disallow: /private/
+
+Sitemap: https://ваш-сайт.ru/sitemap.xml
