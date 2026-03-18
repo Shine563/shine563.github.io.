@@ -4,4 +4,4 @@ Disallow: /backup/
 Disallow: /tmp/
 Disallow: /private/
 
-Sitemap: https://ваш-сайт.ru/sitemap.xml
+Sitemap: https://shine563.github.io./пр7/пр7/sitemap.xml
