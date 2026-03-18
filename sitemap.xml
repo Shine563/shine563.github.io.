@@ -3,7 +3,7 @@
 
   <!-- Главная страница сайта -->
   <url>
-    <loc>https://ваш-сайт.ru/</loc>
+    <loc>https://shine563.github.io./index.html</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- Страница со статьей о театре -->
   <url>
-    <loc>https://ваш-сайт.ru/article.html</loc>
+    <loc>https://shine563.github.io./article.html</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -19,7 +19,7 @@
 
   <!-- Страница товара (книги) -->
   <url>
-    <loc>https://ваш-сайт.ru/product.html</loc>
+    <loc>https://shine563.github.io./product.html</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
